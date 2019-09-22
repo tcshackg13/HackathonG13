@@ -42,7 +42,7 @@ This Project is to Execute End to End CICD Pipeline on provided Eureka Micro Ser
 
 # Solution Approach
 
-
+![project.jpeg](https://github.com/tcshackg13/tcshackg13/blob/master/images/project.jpeg)
 
 # Steps - Challenge 1
 
