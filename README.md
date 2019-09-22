@@ -83,7 +83,7 @@ ansible-playbook sonar-playbook.yml -vv
 
 As part of ansible execution note Jenkins Admin password &amp; Nexus Admin password which will be available in standard output printed.
 
-![1.1.jpeg](https://github.com/tcshackg13/tcshackg13/blob/master/images/1.1.jpeg)
+![1.1.jpg](https://github.com/tcshackg13/tcshackg13/blob/master/images/1.1.jpg)
 
 Step3 : Access all 3 instances through respective URLs
 
@@ -105,6 +105,8 @@ Configuring Nexus , jenkins for Pipeline build
   - Note: Add url as &quot;https://registry-1.docker.io&quot;
 - Create a Docker - Group Repo, &quot;g13dockergroup&quot; and add above docker hosted repo and docker proxy repo to this group. Add 8082 port as HTTP connector.
 
+![2.1.jpg](https://github.com/tcshackg13/tcshackg13/blob/master/images/2.1.jpg)
+
 **Jenkins :**
 
 - Login with Admin password and setup Jenkins with all basic plugins
@@ -113,7 +115,7 @@ Configuring Nexus , jenkins for Pipeline build
 - Install Nexus Artifact Uploader - Plugin
 - Create Pipeline Job as required to pull eureka-sample project provided.
 
-
+![2.2.jpg](https://github.com/tcshackg13/tcshackg13/blob/master/images/2.2.jpg)
 
 # Challenge 3
 
@@ -131,20 +133,33 @@ Jenkins Configuration :
 
 Execute a commit on Github for the sample project and automatically Jenkins Pipeline should start executing, we can monitor popeline status and also respective Application URLs.
 
+![3.1.jpg](https://github.com/tcshackg13/tcshackg13/blob/master/images/3.1.jpg)
+
 Pipeline Execution :
+![3.2.jpg](https://github.com/tcshackg13/tcshackg13/blob/master/images/3.2.jpg)
+
+![3.3.jpg](https://github.com/tcshackg13/tcshackg13/blob/master/images/3.3.jpg)
 
 Nexus Repo :
+![3.4.jpg](https://github.com/tcshackg13/tcshackg13/blob/master/images/3.4.jpg)
+
+![3.5.jpg](https://github.com/tcshackg13/tcshackg13/blob/master/images/3.5.jpg)
 
 Sonar Scanner :
+![3.6.jpg](https://github.com/tcshackg13/tcshackg13/blob/master/images/3.6.jpg)
 
 Dockerized Application (for QA/Test): [http://35.232.99.117:8761/](http://35.232.99.117:8761/)
+![3.7.jpg](https://github.com/tcshackg13/tcshackg13/blob/master/images/3.7.jpg)
 
 Eureka Server (Microservice) Project : [http://35.233.132.69:8761/](http://35.233.132.69:8761/) (On Kubernetes Cluster)
+![3.8.jpg](https://github.com/tcshackg13/tcshackg13/blob/master/images/3.8.jpg)
 
 # Challenge 4
 
 Execute master playbook to provision all the softwares in single click.
 ansible-playbook master-playbook.yml -vv
+
+![4.1.jpg](https://github.com/tcshackg13/tcshackg13/blob/master/images/4.1.jpg)
 
 Solution Approaches :
 
@@ -159,3 +174,9 @@ Solution Approaches :
 
 Created a Simple Stackdriver Monitoring Dashboard to monitor Project / related servers &amp; clusters.
 [https://app.google.stackdriver.com/dashboards/5851650109277982146?project=g13-devops-project](https://app.google.stackdriver.com/dashboards/5851650109277982146?project=g13-devops-project)
+
+![5.1.jpg](https://github.com/tcshackg13/tcshackg13/blob/master/images/5.1.jpg)
+
+
+Thank You
+
