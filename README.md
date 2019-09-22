@@ -69,18 +69,20 @@ https://github.com/tcshackg13/tcshackg13
 **On Client Instance :**
 
 Step1: Added below host entry  in /etc/ansible/hosts
+```
 [jenkins]
 10.128.0.5
 [sonarqube]
 10.142.0.4
 [nexus]
 10.128.0.6
-
+```
 Step2 : Execute ansible playbooks with verbose command
+```
 ansible-playbook jenkins-playbook.yml -vv
 ansible-playbook nexus-playbook.yml -vv
 ansible-playbook sonar-playbook.yml -vv
-
+```
 As part of ansible execution note Jenkins Admin password &amp; Nexus Admin password which will be available in standard output printed.
 
 ![1.1.jpg](https://github.com/tcshackg13/tcshackg13/blob/master/images/1.1.jpg)
