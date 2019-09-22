@@ -16,11 +16,11 @@ This Project is to Execute End to End CICD Pipeline on provided Eureka Micro Ser
 
 # Goals
 
-- Challenge:1         -  All 3 Linux Centos 7 Servers (Jenkins, Nexus &amp; Sonarqube) are provisioned with respective Ansible Playbooks. Also all dependencies required for all projects are part of this Ansible Playbooks
-- Challenge:2          - Configure Jenkins &amp; Docker services
-- Challenge:3        - Execute end to end Jenkins Pipeline for CI &amp; CD through Groovy DSL / Jenkinsfile
-- Challenge:4        - Automate All above challenges wherever applicable.
-- Challenge:5        - Setup Stackdriver dashboard for GCP Project.
+- **Challenge:1**         -  All 3 Linux Centos 7 Servers (Jenkins, Nexus &amp; Sonarqube) are provisioned with respective Ansible Playbooks. Also all dependencies required for all projects are part of this Ansible Playbooks
+- **Challenge:2**          - Configure Jenkins &amp; Docker services
+- **Challenge:3**        - Execute end to end Jenkins Pipeline for CI &amp; CD through Groovy DSL / Jenkinsfile
+- **Challenge:4**        - Automate All above challenges wherever applicable.
+- **Challenge:5**        - Setup Stackdriver dashboard for GCP Project.
 
 # Pre-requisites:
 
@@ -28,7 +28,7 @@ This Project is to Execute End to End CICD Pipeline on provided Eureka Micro Ser
 - Created 4 VMs and made sure SSH keys are transferred for ansible to do ssh.
 - Created 1 Kubernetes cluster.
 - Updated Firewall Rules to allow ports so that we can access applications externally.
-  - tcp:8080; tcp:9000; tcp:8081; tcp:8761; tcp:8082; tcp:8083; tcp:9990; tcp:9090
+  - **tcp:8080; tcp:9000; tcp:8081; tcp:8761; tcp:8082; tcp:8083; tcp:9990; tcp:9090**
 
 | **Instance Name** | **Type** | **IP** |
 | --- | --- | --- |
@@ -59,16 +59,21 @@ Created Playbook Roles &amp; corresponding yml files as per below configuration 
 - Nexus
 - Sonarqube
 
-Jenkins Playbook will call Dependencies (maven, java,git,unzip,wget ), Docker (docker, docker-compose) , Jenkins Roles (sonar scanner , kubectl)
-Nexus Playbook will call Dependencies, Docker, Nexus Roles
-Sonarqube Playbook will call Dependencies, Docker, Sonarqube Roles
+- **Jenkins Playbook will call**
+  - Dependencies (maven, java,git,unzip,wget), 
+  - Docker (docker, docker-compose), 
+  - Jenkins Roles (sonar scanner, kubectl)
+- **Nexus Playbook will call**
+  - Dependencies,
+  - Docker,
+  - Nexus Roles
+- **Sonarqube Playbook will call**
+  - Dependencies,
+  - Docker,
+  - Sonarqube Roles
 
 Refer to Zip file provided or below Git Repo for Playbook Roles :
-[G13 Github Repo](https://github.com/tcshackg13/tcshackg13)
-
-[Ansible Roles](https://github.com/tcshackg13/tcshackg13/archive/master.zip)
-
-[Eureka Sample Project](https://github.com/tcshackg13/eureka-devops-g13/archive/master.zip)
+https://github.com/tcshackg13/tcshackg13
 
 **On Client Instance :**
 
