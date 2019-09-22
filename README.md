@@ -136,22 +136,27 @@ Execute a commit on Github for the sample project and automatically Jenkins Pipe
 ![3.1.jpg](https://github.com/tcshackg13/tcshackg13/blob/master/images/3.1.jpg)
 
 Pipeline Execution :
+
 ![3.2.jpg](https://github.com/tcshackg13/tcshackg13/blob/master/images/3.2.jpg)
 
 ![3.3.jpg](https://github.com/tcshackg13/tcshackg13/blob/master/images/3.3.jpg)
 
 Nexus Repo :
+
 ![3.4.jpg](https://github.com/tcshackg13/tcshackg13/blob/master/images/3.4.jpg)
 
 ![3.5.jpg](https://github.com/tcshackg13/tcshackg13/blob/master/images/3.5.jpg)
 
 Sonar Scanner :
+
 ![3.6.jpg](https://github.com/tcshackg13/tcshackg13/blob/master/images/3.6.jpg)
 
 Dockerized Application (for QA/Test): [http://35.232.99.117:8761/](http://35.232.99.117:8761/)
+
 ![3.7.jpg](https://github.com/tcshackg13/tcshackg13/blob/master/images/3.7.jpg)
 
 Eureka Server (Microservice) Project : [http://35.233.132.69:8761/](http://35.233.132.69:8761/) (On Kubernetes Cluster)
+
 ![3.8.jpg](https://github.com/tcshackg13/tcshackg13/blob/master/images/3.8.jpg)
 
 # Challenge 4
