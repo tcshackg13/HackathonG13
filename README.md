@@ -47,9 +47,10 @@ This Project is to Execute End to End CICD Pipeline on provided Eureka Micro Ser
 # Steps - Challenge 1
 
 Install Ansible &amp; Git on Client Instance :
+```
 sudo yum install ansible
 Sudo yum install git
-
+```
 Created Playbook Roles &amp; corresponding yml files as per below configuration :
 
 - Dependencies
