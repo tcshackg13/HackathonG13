@@ -83,6 +83,8 @@ ansible-playbook sonar-playbook.yml -vv
 
 As part of ansible execution note Jenkins Admin password &amp; Nexus Admin password which will be available in standard output printed.
 
+![1.1.jpeg](https://github.com/tcshackg13/tcshackg13/blob/master/images/1.1.jpeg)
+
 Step3 : Access all 3 instances through respective URLs
 
 Jenkins : [http://35.232.99.117:8080](http://35.232.99.117:8080/)
