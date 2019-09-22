@@ -4,15 +4,11 @@
 
 **─**
 
-Sarath Kunala
-
-Vishal Aswani
-
-Rahul Vanmali
-
-Ankita Chhabra
-
-Isabel Hernandez
+- Sarath Kunala
+- Vishal Aswani
+- Rahul Vanmali
+- Ankita Chhabra
+- Isabel Hernandez
 
 # Overview
 
