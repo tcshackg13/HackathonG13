@@ -136,7 +136,7 @@ Setup &quot;Jenkinsfile&quot; Pipeline Script, Kubernetes Manifest files, Docker
 
 Note: These files are also available under &quot;references&quot; folder in the zip file or git repo [https://github.com/tcshackg13/tcshackg13](https://github.com/tcshackg13/tcshackg13)
 
-Jenkins Configuration :
+**Jenkins Configuration**:
 
 - Create Jenkins Pipeline job &quot;tcshackg13-pipeline-job&quot; pointing to Jenkinsfile in [https://github.com/tcshackg13/eureka-devops-g13](https://github.com/tcshackg13/eureka-devops-g13)
 - Select Github hook trigger for GITscm polling
@@ -146,44 +146,45 @@ Execute a commit on Github for the sample project and automatically Jenkins Pipe
 
 ![3.1.jpg](https://github.com/tcshackg13/tcshackg13/blob/master/images/3.1.jpg)
 
-Pipeline Execution :
+**Pipeline Execution**:
 
 ![3.2.jpg](https://github.com/tcshackg13/tcshackg13/blob/master/images/3.2.jpg)
 
 ![3.3.jpg](https://github.com/tcshackg13/tcshackg13/blob/master/images/3.3.jpg)
 
-Nexus Repo :
+**Nexus Repo**:
 
 ![3.4.jpg](https://github.com/tcshackg13/tcshackg13/blob/master/images/3.4.jpg)
 
 ![3.5.jpg](https://github.com/tcshackg13/tcshackg13/blob/master/images/3.5.jpg)
 
-Sonar Scanner :
+**Sonar Scanner**:
 
 ![3.6.jpg](https://github.com/tcshackg13/tcshackg13/blob/master/images/3.6.jpg)
 
-Dockerized Application (for QA/Test): [http://35.232.99.117:8761/](http://35.232.99.117:8761/)
+**Dockerized Application (for QA/Test)**: [http://35.232.99.117:8761/](http://35.232.99.117:8761/)
 
 ![3.7.jpg](https://github.com/tcshackg13/tcshackg13/blob/master/images/3.7.jpg)
 
-Eureka Server (Microservice) Project : [http://35.233.132.69:8761/](http://35.233.132.69:8761/) (On Kubernetes Cluster)
+**Eureka Server (Microservice) Project**: [http://35.233.132.69:8761/](http://35.233.132.69:8761/) (On Kubernetes Cluster)
 
 ![3.8.jpg](https://github.com/tcshackg13/tcshackg13/blob/master/images/3.8.jpg)
 
 # Challenge 4
 
 Execute master playbook to provision all the softwares in single click.
+```
 ansible-playbook master-playbook.yml -vv
-
+```
 ![4.1.jpg](https://github.com/tcshackg13/tcshackg13/blob/master/images/4.1.jpg)
 
-Solution Approaches :
+**Solution Approaches:**
 
-1. Use Ansible to install &amp; configure jenkins based on below :
+1. **Use Ansible to install &amp; configure jenkins based on below:**
   - XML files for Jenkins Config, Jobs, Credentials.
   - Copy the core XML files along with other dependent XML files from the source system folder  &quot;/var/lib/jenkins/&quot; to target system.
 
-1. Using Jenkins CLI to create credentials, build /create jobs/plugins etc...
+1. **Using Jenkins CLI to create credentials, build /create jobs/plugins etc...**
   - Automate Ansible execution of scripts and then subsequently Jenkins CLI commands can be executed to perform end to end environment.
 
 # Challenge 5
