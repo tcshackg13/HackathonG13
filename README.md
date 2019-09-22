@@ -64,9 +64,11 @@ Nexus Playbook will call Dependencies, Docker, Nexus Roles
 Sonarqube Playbook will call Dependencies, Docker, Sonarqube Roles
 
 Refer to Zip file provided or below Git Repo for Playbook Roles :
-https://github.com/tcshackg13/tcshackg13
-[Ansible Roles] (https://github.com/tcshackg13/tcshackg13/archive/master.zip)
-[Eureka Sample Project] (https://github.com/tcshackg13/eureka-devops-g13/archive/master.zip)
+[G13 Github Repo](https://github.com/tcshackg13/tcshackg13)
+
+[Ansible Roles](https://github.com/tcshackg13/tcshackg13/archive/master.zip)
+
+[Eureka Sample Project](https://github.com/tcshackg13/eureka-devops-g13/archive/master.zip)
 
 **On Client Instance :**
 
