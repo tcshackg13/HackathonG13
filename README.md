@@ -180,11 +180,11 @@ ansible-playbook master-playbook.yml -vv
 
 **Solution Approaches:**
 
-1. **Use Ansible to install &amp; configure jenkins based on below:**
+**1. Use Ansible to install &amp; configure jenkins based on below:**
   - XML files for Jenkins Config, Jobs, Credentials.
   - Copy the core XML files along with other dependent XML files from the source system folder  &quot;/var/lib/jenkins/&quot; to target system.
 
-1. **Using Jenkins CLI to create credentials, build /create jobs/plugins etc...**
+**2. Using Jenkins CLI to create credentials, build /create jobs/plugins etc...**
   - Automate Ansible execution of scripts and then subsequently Jenkins CLI commands can be executed to perform end to end environment.
 
 # Challenge 5
