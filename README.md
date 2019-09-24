@@ -37,7 +37,7 @@ This Project is to Execute End to End CICD Pipeline on provided Eureka Micro Ser
 | artifactory-instance | VM | 10.128.0.635.232.19.37 |
 | testing-instance | VM | 10.142.0.4 (nic0) 35.243.222.63 |
 | g13-k8s-cluster | Kubernetes Cluster (3 Node) | g13-k8s-cluster |
-| Github - Ansible Code | Github | [https://github.com/tcshackg13/tcshackg13](https://github.com/tcshackg13/tcshackg13)  tcshackg13 / Tcs@hackg13 |
+| Github - Ansible Code | Github | [https://github.com/tcshackg13/tcshackg13](https://github.com/tcshackg13/tcshackg13) |
 | Github - Application Code | Github | [https://github.com/tcshackg13/eureka-devops-g13](https://github.com/tcshackg13/eureka-devops-g13) |
 
 # Solution Approach
